@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Motto. Etc.
+subtitle: subtitle quote
 
 profile:
   align: right
@@ -14,10 +14,10 @@ profile:
     <p>Columbia, SC 29225</p>
     <p>cf17 (@) email.sc.edu</p>
 
-selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
-Here's some very boring information about myself. 
+I am a 6th year mathematics PhD student at <a href='https://sc.edu'>University of South Carolina</a>. My advisor is <a href='https://people.math.sc.edu/androula/'>Geourge Androulakis</a>
+
 
 Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
 
