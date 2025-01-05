@@ -27,22 +27,6 @@ back_to_top: false # set to false to disable the back to top button
 # Theme
 # -----------------------------------------------------------------------------
 
-# repo color theme
-repo_theme_light: dark # https://github.com/anuraghazra/github-readme-stats/blob/master/themes/README.md
-repo_theme_dark: dark # https://github.com/anuraghazra/github-readme-stats/blob/master/themes/README.md
-repo_trophies:
-  enabled: false
-  theme_light: flat # https://github.com/ryo-ma/github-profile-trophy
-  theme_dark: gitdimmed # https://github.com/ryo-ma/github-profile-trophy
-
-# -----------------------------------------------------------------------------
-# RSS Feed
-# -----------------------------------------------------------------------------
-# will use title and url fields
-# Take a look to https://github.com/jekyll/jekyll-feed for more customization
-
-rss_icon: false
-
 # -----------------------------------------------------------------------------
 # Layout
 # -----------------------------------------------------------------------------
@@ -51,7 +35,6 @@ navbar_fixed: true
 footer_fixed: true
 search_enabled: false
 socials_in_search: false
-bib_search: false
 
 # Dimensions
 max_width: 930px
@@ -104,15 +87,6 @@ related_blog_posts:
 # you can display them in your blog by adding a link to the RSS feed.
 
 # -----------------------------------------------------------------------------
-# Newsletter
-# -----------------------------------------------------------------------------
-
-newsletter:
-  enabled: false
-  endpoint: # your loops endpoint (e.g., https://app.loops.so/api/newsletter-form/YOUR-ENDPOINT)
-  # https://loops.so/docs/forms/custom-form
-
-# -----------------------------------------------------------------------------
 # Collections
 # -----------------------------------------------------------------------------
 
@@ -120,11 +94,6 @@ collections:
   projects:
     output: false
     permalink: /:collection/:title/
-
-latest_posts:
-  enabled: false
-  scrollable: true # adds a vertical scroll bar if there are more than 3 new posts items
-  limit: 3 # leave blank to include all the blog posts
 
 # -----------------------------------------------------------------------------
 # Jekyll settings
@@ -528,7 +497,6 @@ jsonresume:
   - basics
   - work
   - education
-  - publications
   - projects
   - awards
   - skills
