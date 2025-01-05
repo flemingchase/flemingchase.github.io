@@ -6,11 +6,15 @@ github_username: flemingchase
 # gitlab_username: # your GitLab user name
 # ieee_id: # your ieeexplore.ieee.org/author/id
 # instagram_id: # your instagram id
-lastfm_id: cflemi
+# lastfm_id: cflemi
 # leetcode_id: # your LeetCode id
 # wikipedia_id: # your wikipedia id (Case sensitive)
 work_url: https://sc.edu/study/colleges_schools/artsandsciences/mathematics/our_people/directory/fleming_chase.php # work page URL
-rateyourmusic: # can be any name here other than the ones already defined above
+rateyourmusic:
   logo: /assets/img/rymlogo.svg
   title: RYM
   url: https://rateyourmusic.com/~cflemi12
+lastfm:
+  logo: /assets/img/lastfmlogo.svg
+  title: last.fm
+  url: https://www.last.fm/user/cflemi
