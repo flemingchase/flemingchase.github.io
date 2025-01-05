@@ -6,12 +6,8 @@ title: blank # the website title (if blank, full name will be used instead)
 first_name: Chase
 middle_name: A.
 last_name: Fleming
-contact_note:
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
   This is my personal website! It includes things written by me and relevant professional information.
-footer_text: >
-  Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
-  Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
 keywords: academic-website, mathematics, math-blog # add your own keywords or leave empty
 lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
 icon: # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
@@ -19,27 +15,19 @@ icon: # the emoji used as the favicon (alternatively, provide image name in /ass
 domain: flemingchase.github.io
 url: https://flemingchase.github.io # the base hostname & protocol for your site
 baseurl: # the subpath of your site, e.g. /blog/. Leave blank for root
-last_updated: false # set to true if you want to display last updated in the footer
 impressum_path: # set to path to include impressum link in the footer, use the same path as permalink in a page, helps to conform with EU GDPR
 back_to_top: false # set to false to disable the back to top button
-
-# -----------------------------------------------------------------------------
-# Theme
-# -----------------------------------------------------------------------------
 
 # -----------------------------------------------------------------------------
 # Layout
 # -----------------------------------------------------------------------------
 
 navbar_fixed: true
-footer_fixed: true
 search_enabled: false
 socials_in_search: false
 
 # Dimensions
 max_width: 930px
-
-# TODO: add layout settings (single page vs. multi-page)
 
 # -----------------------------------------------------------------------------
 # Open Graph & Schema.org
@@ -49,21 +37,6 @@ max_width: 930px
 serve_og_meta: false # Include Open Graph meta tags in the HTML head
 serve_schema_org: false # Include Schema.org in the HTML head
 og_image: # The site-wide (default for all links) Open Graph preview image
-
-# -----------------------------------------------------------------------------
-# Analytics and search engine verification
-# -----------------------------------------------------------------------------
-
-# For Google Analytics, see https://support.google.com/analytics/answer/10447272?hl=en&ref_topic=14088998&sjid=5129943941510317771-SA#zippy=%2Cgoogle-sites
-# and follow the instructions for Google Sites. You will need to create a Google Analytics property and copy the Google tag ID.
-google_analytics: # your Google Analytics measurement ID (format: G-XXXXXXXXXX)
-cronitor_analytics: # cronitor RUM analytics site ID (format: XXXXXXXXX)
-pirsch_analytics: # your Pirsch analytics site ID (length 32 characters)
-openpanel_analytics: # your Openpanel analytics client ID (format: XXXXXXXX-XXXX-XXXX-XXXX-XXXXXXXXXXXX)
-
-# For Google Search Console, see https://support.google.com/webmasters/answer/9008080?hl=en#meta_tag_verification&zippy=%2Chtml-tag
-google_site_verification: # your google-site-verification ID (Google Search Console)
-bing_site_verification: # out your bing-site-verification ID (Bing Webmaster)
 
 # -----------------------------------------------------------------------------
 # Blog
@@ -76,15 +49,11 @@ lsi: false # produce an index for related posts
 
 # Pagination
 pagination:
-  enabled: true
+  enabled: false
 
 related_blog_posts:
   enabled: false
-  max_related: 5
-
-# External sources.
-# If you have blog posts published on medium.com or other external sources,
-# you can display them in your blog by adding a link to the RSS feed.
+  max_related: 0
 
 # -----------------------------------------------------------------------------
 # Collections
