@@ -34,7 +34,7 @@ I was trained by Dr. Nyikos in set-theoretic topology. My interests there were:
 Cp Space theory, topologies on trees, and classifying generators for Tychonoff
 spaces. 
 
-Please see some of my posts in the block section for some of my writings on
+Please see some of my posts in the blog section for some of my writings on
 these topics.
 
 In 2023, I was awarded a David L. Boren Fellowship through the National
