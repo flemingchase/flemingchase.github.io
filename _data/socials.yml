@@ -45,7 +45,3 @@ lastfm_id: cflem
 # x_username: # your X handle
 # youtube_id: # your youtube channel id (youtube.com/@<youtube_id>)
 # zotero_username: # your zotero username
-rateyourmusic: # can be any name here other than the ones already defined above
-  logo: https://en.wikipedia.org/wiki/Rate_Your_Music#/media/File:Rate_Your_Music_logo.svg 
-  title: RateYourMusic
-  url: https://rateyourmusic.com/~cflemi12
