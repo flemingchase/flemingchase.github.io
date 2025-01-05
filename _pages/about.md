@@ -9,7 +9,7 @@ profile:
   image: profpic.jpg
   image_circular: true # crops the image to make it circular
   more_info: >
-    <p>LeConte 115</p>
+    <p>LeConte College 115</p>
     <p>1523 Greene St</p>
     <p>Columbia, SC 29225</p>
     <p>cf17 (@) email.sc.edu</p>
