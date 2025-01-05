@@ -11,6 +11,6 @@ lastfm_id: cflemi
 # wikipedia_id: # your wikipedia id (Case sensitive)
 work_url: https://sc.edu/study/colleges_schools/artsandsciences/mathematics/our_people/directory/fleming_chase.php # work page URL
 rateyourmusic: # can be any name here other than the ones already defined above
-  logo: rymlogo.svg
+  logo: /assets/img/rymlogo.svg
   title: RYM
   url: https://rateyourmusic.com/~cflemi12
