@@ -42,8 +42,8 @@ og_image: # The site-wide (default for all links) Open Graph preview image
 # Blog
 # -----------------------------------------------------------------------------
 
-blog_name: Math Writings # blog_name will be displayed in your blog page
-blog_description: Some writings about math.
+blog_name: My blog # blog_name will be displayed in your blog page
+blog_description: Mainly some amusing notes about math. Sometimes I'll post about other things.
 permalink: /blog/:year/:title/
 lsi: false # produce an index for related posts
 
