@@ -37,4 +37,15 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/teaching/";
           },
-        },];
+        },{id: "post-conditional-expectation-with-respect-to-von-neumann-subalgebras",
+      
+        title: "Conditional expectation with respect to von-Neumann subalgebras",
+      
+      description: "some notes on a paper by D. Shlyakhtenko",
+      section: "Posts",
+      handler: () => {
+        
+          window.location.href = "/blog/2025/math/";
+        
+      },
+    },];
