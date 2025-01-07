@@ -25,7 +25,7 @@ becoming his student, I was advised by the late <a
 href='https://people.math.sc.edu/nyikos/'>Dr. Peter Nyikos</a>. 
 
 My current academic interests include: quantum information and statistics,
-mathematical founations of physics, classical statistics, and functional
+mathematical foundations of physics, classical statistics, and functional
 analysis. In particular, I am interested in the inverse space
 problem of Weyl-Wigner Quantization and generalizing Shannon's entropy theorem
 to the quantum setting.
