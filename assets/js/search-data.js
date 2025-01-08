@@ -37,7 +37,18 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/teaching/";
           },
-        },{id: "post-conditional-expectation-with-respect-to-von-neumann-subalgebras",
+        },{id: "post-properties-of-the-score-function",
+      
+        title: "Properties of the score function",
+      
+      description: "some more notes on a paper by D. Shlyakhtenko",
+      section: "Posts",
+      handler: () => {
+        
+          window.location.href = "/blog/2025/score-function/";
+        
+      },
+    },{id: "post-conditional-expectation-with-respect-to-von-neumann-subalgebras",
       
         title: "Conditional expectation with respect to von-Neumann subalgebras",
       
@@ -45,7 +56,7 @@ ninja.data = [{
       section: "Posts",
       handler: () => {
         
-          window.location.href = "/blog/2025/math/";
+          window.location.href = "/blog/2025/conditional-expectation/";
         
       },
     },];
