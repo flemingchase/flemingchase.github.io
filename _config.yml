@@ -148,11 +148,14 @@ terser:
 # -----------------------------------------------------------------------------
 
 jekyll-archives:
-  enabled: [tags] # enables year, tag and category archives (remove if you need to disable one of them).
+  enabled: [tags, year] # enables year, tag and category archives (remove if you need to disable one of them).
   layouts:
+    year: archive-year
     tag: archive-tag
   permalinks:
+    year: "/blog/:year/"
     tag: "/blog/tag/:name/"
+
 
 display_tags: [] # these tags will be displayed on the front page of your blog
 display_categories: [] # these categories will be displayed on the front page of your blog
