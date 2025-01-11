@@ -1,0 +1,30 @@
+{
+  "expository_paper": [{
+    "title": "Diamond Equivalents",
+    "pdf": "/assets/pdf/diamondequiv.pdf",
+    "desc": "We state and prove 4 other equivalent formuations of the diamond principle."
+  },{
+    "title": "Functional countability of the square of the Kunen line minus the diagonal",
+    "pdf": "/assets/pdf/functionalcbtly.pdf",
+    "desc": "We give a brief overview of functional coutnability, the Kunen line construction, and a possible answer to a question posed paper by V. Tkachuk."
+  },{
+    "title": "Boolean algebras of arbitrary size",
+    "pdf": "/assets/pdf/booleanalgebraofarbitrarysize.pdf",
+    "desc": "We state and prove a well known result from Solovay about the existence of countably generated complete Boolean algebras of size larger than an arbitrary cardinality."
+  },{
+    "title": "Super (0,1)-generators on trees of arbitrary size",
+    "pdf": "/assets/pdf/genontrees.pdf",
+    "desc": "(0,1)-generators of Tychonoff spaces capture the topology of the space inside of Cp(X) space. Trees of arbitrary height with the restriction that every element has at most countably many successors is shown to have a super (0,1)-generator that is also discrete."
+  }],
+  "talks": [{
+    "title": "An Introduction to Forcing",
+    "location": "UofSC Math Grad Colloquium",
+    "date": "3/16/2022",
+    "slides": "/assets/pdf/gradforcing.pdf"
+    },{
+    "title": "Countably Generated Complete Boolean Algebras of Arbitrary Size", 
+    "location": "UofSC Math Grad Colloquium",
+    "date": "9/21/2021",
+    "slides": "/assets/pdf/gradboolean.pdf"
+    }]
+}

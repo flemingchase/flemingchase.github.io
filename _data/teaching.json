@@ -1,0 +1,76 @@
+{
+  "class": [{
+    "title": "Calculus I",
+    "code" : "Math 141",
+    "role": "Teaching Assistant",
+    "year": "2019",
+    "semester": "Fall"},
+    {
+    "title": "Calculus II",
+    "code": "Math 142",
+    "role": "Teaching Assistant",
+    "year": "2020",
+    "semester": "Spring"},
+    {
+    "title": "Calculus for Business and Social Science",
+    "code": "Math 122",
+    "role": "Instructor",
+    "year": "2020",
+    "semester": "Fall",
+    "syllabus": "/syllabus/MATH122FA20.pdf"},
+    {
+    "title": "Calculus for Business and Scoial Science",
+    "code": "Math 122",
+    "role": "Instructor",
+    "year": "2021",
+    "semester": "Spring",
+    "syllabus": "/syllabus/MATH122SP21.pdf"},
+    {
+    "title": "Calculus for Business and Social Science",
+    "role": "Instructor",
+    "year": "2021",
+    "semester": "Summer",
+    "syllabus": "/syllabus/MATH122SU21.pdf"},
+    {
+    "title": "Calculus I",
+    "code": "Math 141",
+    "role": "Teaching Assistant",
+    "year": "2021",
+    "semester": "Fall",
+    "syllabus": "/syllabus/MATH141FA21.pdf"},
+    {
+    "title": "Calculus II",
+    "code": "Math 142",
+    "role": "Teaching Assistant",
+    "year": "2022",
+    "semester": "Spring",
+    "syllabus": "/syllabus/MATH142SP22.pdf"},
+    {
+    "title": "Intensive Basic College Algebra",
+    "code": "Math 111i",
+    "role": "Instructor",
+    "year": "2022",
+    "semester": "Fall",
+    "syllabus": "/syllabus/MATH111iFA22.pdf"},
+    {
+    "title": "Basic College Algebra",
+    "code": "Math 111",
+    "role": "Instructor",
+    "year": "2023",
+    "semester": "Spring",
+    "syllabus": "/syllabus/MATH111SP23.pdf"},
+    {
+    "title": "Intensive Basic College Algebra",
+    "code": "Math 111i",
+    "role": "Instructor",
+    "year": "2024",
+    "semester": "Fall",
+    "syllabus": "/syllabus/MATH111iFA24.pdf"},
+    {
+    "title": "Discrete Math for Computer Science",
+    "code": "Math 174",
+    "role": "Instructor",
+    "year": "2025",
+    "semester": "Spring",
+    "syllabus": "/syllabus/MATH174SP25.pdf"}
+]}

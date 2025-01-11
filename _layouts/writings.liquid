@@ -1,0 +1,75 @@
+---
+layout: default
+---
+
+{% unless site.data.writings %}
+  {content}
+{% else %}
+<div class="post">
+  <header class="post-header">
+    <h1 class="post-title">
+      {{ page.title }}
+    </h1>
+    {% if page.description %}
+      <p class="post-description">{{ page.description }}</p>
+    {% endif %}
+  </header>
+
+  <article>
+    {% for data in site.data.writings %}
+      <a class="anchor" id="{{ data[0] }}"></a>
+      <div>
+        {% case data[0] %}
+        {% when 'expository_paper' %}
+          <h4> Expository papers </h4>
+            <ul>
+              {% for paper in data[1] %}
+                {% assign paper_listing = '' %}
+                {% for element in paper %}
+                  {% case element[0] %}
+                    {% when 'title' %}
+                      {% assign paper_listing = paper_listing | append: element[1] %}
+                    {% when 'pdf' %}
+                      {% capture paper_link %}
+                        <a href="{{element[1]}}"> (pdf) </a>
+                      {% endcapture %}
+                      {% assign paper_listing = paper_listing | append: paper_link %}
+                    {% when 'desc' %}
+                      {% assign paper_listing = paper_listing | append: '<br>'
+                      | append: "Description: " | append: element[1] %}
+                  {% endcase %}
+                {% endfor %}
+                <li>{{ paper_listing }}</li>
+              {% endfor %}
+            </ul>
+        {% when 'talks' %}
+          <h4> Talks given </h4>
+          <ul>
+            {% for talk in data[1] %}
+              {% assign talk_listing = '' %}
+              {% for element in talk %}
+                {% case element[0] %}
+                  {% when 'title' %}
+                   {% assign talk_listing = talk_listing | append: element[1] %}
+                  {% when 'slides' %}
+                    {% capture talk_link %}
+                      <a href="{{element[1]}}"> (slides)</a>
+                    {% endcapture %}
+                    {% assign talk_listing = talk_listing | append: talk_link %}
+                  {% when 'location' %}
+                    {% assign talk_listing = talk_listing | append: "<br>"
+                    | append: element[1] %}
+                  {% when 'date' %}
+                    {% assign talk_listing = talk_listing | append:
+                    " - " | append: element[1] %}
+                {% endcase %}
+              {% endfor %}
+              <li> {{ talk_listing }}</li>
+            {% endfor %}
+          </ul>
+        {% endcase %}
+      </div>
+    {% endfor %}
+  </article>
+</div>
+{% endunless %}

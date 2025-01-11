@@ -3,8 +3,7 @@ layout: post
 title: Properties of the score function
 date: 2025-01-07 12:00:00-0400
 description: some more notes on a paper by D. Shlyakhtenko
-tags:
-categories: math
+tags: math statistics
 related_posts: false
 ---
 
@@ -29,14 +28,14 @@ These were not immediate to us. So, we will justify each equality symbol in this
 
 ### Background
 
-Let $$\{(X^{(1)}_{j}, \ldots, X^{(n)}_{j})\}_{j < \omega}$$ be a sequence of
+Let $$\{(X^{(1)}_{j}, \ldots, X^{(n)}_{j})\}_{j=1,2,3,\ldots}$$ be a sequence of
 $$n$$-tuples of random variables where each $$X_{i}^{(k)}$$ lives inside some fixed
-operator algebra $$A$$. Moreoever, assume that for each $$i,k < \omega, i\neq k$$
+operator algebra $$A$$. Moreoever, assume that for each $$i,k \in \{1,2,3,\ldots\}, i\neq k$$
 the $$n$$-tuples $$(X^{(1)}_{i},\ldots,X^{n}_{i})$$ and
 $$(X^{(1)}_{k},\ldots,X^{(n)}_{k})$$ are independent and identically distrubted
 with finite second moments. 
 
-We can visualize this as placing these random variables in an $$n \times \omega$$
+We can visualize this as placing these random variables in an $$n \times \{1,2,3,\ldots\}$$
 matrix: 
 
 $$\begin{bmatrix}
@@ -51,13 +50,13 @@ where each row, considered as an $$n$$-tuple is independent and identitcally
 distrubted from any other row. 
 
 Next, we define new elements, the $$Z^{(k)}_{N}$$. For every $$1 \leq k \leq
-n$$ and $N < \omega$, let 
+n$$ and $$N \in \{1,2,3,\ldots\}$$, let 
 
 $$
 Z^{(k)}_{N} = \frac{1}{\sqrt{N}}\sum_{i=1}^{N} X^{(k)}_{i} = \frac{X_{1}^{(k)}
 + X^{(k)}_{2} + \ldots + X^{(k)}_{N}}{\sqrt{N}}$$
 
-So, we can construct a new $$n\times \omega$$ matrix
+So, we can construct a new $$n\times \{1,2,3,\ldots\}$$ matrix
 
 $$\begin{bmatrix}
 Z^{(1)}_{1} & Z^{(2)}_{1} & \ldots & Z^{(n)}_{1} \\
@@ -141,10 +140,11 @@ blog</a> on conditional expectation in this context).
 We are now ready to justify each of the three equalities. So, let's state the
 assumptions of lemma $$5$$.
 
-**Lemma 5** Let $$(X^{(1)}_{j}, \ldots, X^{(n)}_{j}), j=1, 2, 3, \ldots$$ be a sequence of
+**Lemma 5** *Let $$(X^{(1)}_{j}, \ldots, X^{(n)}_{j}), j=1, 2, 3, \ldots$$ be a sequence of
 $$n$$-tuples so that these tuples of independent and identitically distrubuted
-and have finite second moments. Let $$Z^{(k)}_{N} = X^{(k)}_{1} + \ldots
-+ X^{(k)}_{N}/\sqrt{N}$$.
+and have finite second moments. Let* 
+
+$$Z^{(k)}_{N} = X^{(k)}_{1} + \ldots + X^{(k)}_{N}/ \sqrt{N}$$
 
 ### First equality
 
@@ -221,7 +221,7 @@ p / \partial z_{k}}{p} \\
 &= - \frac{1}{\rho_{N+1}^{(k)}(z_{k})\prod_{i\neq k} p_{N+1}^{(i)}(z_{i})} \frac{\partial}{\partial z_{k}}
 \rho_{N+1}^{(k)}(z_{k}) \prod_{i\neq k} p_{N+1}^{(i)}(z_{i})\\
 
-&= -\frac{f^{\star(N+1)\prime}(z_{k})}{f^{\star(N+1}(z_{k})}
+&= -\frac{f^{\star(N+1)\prime}}{f^{\star(N+1)}}(z_{k})
 \end{aligned}
 $$
 

@@ -1,0 +1,39 @@
+---
+layout: default
+---
+
+<div class="post">
+  <header class="post-header">
+    <h1 class="post-title">
+      {{ page.title }}
+    </h1>
+    {% if page.description %}
+      <p class="post-description">{{ page.description }}</p>
+    {% endif %}
+  </header>
+
+  <article>
+    {% for data in site.data.teaching %}
+      <a class="anchor" id="{{ data[0] }}"></a>
+      <div>
+        </h4> Classes taught </h4>
+        <ul>
+          {% for class in data[1] %}
+            {% capture class_listing %}
+              {{ class.year }} {{ class.semester}} - {{ class.code }} - {{
+              class.title }}<br>Role: {{ class.role }}
+            {% endcapture %}
+            {% if class.syllabus %}
+              {% capture class_syllabus %}
+                <a href="/assets/pdf{{ class.syllabus }}"> (Syllabus)</a>
+              {% endcapture %}
+              {% assign class_listing = class_listing | append: class_syllabus
+              %}
+            {% endif %}
+            <li>{{ class_listing }}</li>
+          {% endfor %}
+        </ul>
+      </div>
+    {% endfor %}
+  </article>
+</div>

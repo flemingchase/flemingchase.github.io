@@ -42,8 +42,8 @@ og_image: # The site-wide (default for all links) Open Graph preview image
 # Blog
 # -----------------------------------------------------------------------------
 
-blog_name: My blog # blog_name will be displayed in your blog page
-blog_description: Mainly some amusing notes about math. Sometimes I'll post about other things.
+blog_name: # blog_name will be displayed in your blog page
+blog_description: amusing notes about math and sometimes other things
 permalink: /blog/:year/:title/
 lsi: false # produce an index for related posts
 
@@ -54,15 +54,6 @@ pagination:
 related_blog_posts:
   enabled: false
   max_related: 0
-
-# -----------------------------------------------------------------------------
-# Collections
-# -----------------------------------------------------------------------------
-
-collections:
-  projects:
-    output: false
-    permalink: /:collection/:title/
 
 # -----------------------------------------------------------------------------
 # Jekyll settings
@@ -157,18 +148,14 @@ terser:
 # -----------------------------------------------------------------------------
 
 jekyll-archives:
-  enabled: [categories] # enables year, tag and category archives (remove if you need to disable one of them).
+  enabled: [tags] # enables year, tag and category archives (remove if you need to disable one of them).
   layouts:
-    year: archive-year
     tag: archive-tag
-    category: archive-category
   permalinks:
-    year: "/blog/:year/"
     tag: "/blog/tag/:name/"
-    category: "/blog/category/:name/"
 
 display_tags: [] # these tags will be displayed on the front page of your blog
-display_categories: ["math", "other"] # these categories will be displayed on the front page of your blog
+display_categories: [] # these categories will be displayed on the front page of your blog
 
 # -----------------------------------------------------------------------------
 # Jekyll Link Attributes
@@ -466,7 +453,6 @@ jsonresume:
   - basics
   - work
   - education
-  - projects
   - awards
   - skills
   - languages
