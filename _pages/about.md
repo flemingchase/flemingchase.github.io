@@ -1,6 +1,6 @@
 ---
 layout: about
-title: blank
+title: about
 permalink: /
 subtitle: Hello! 안녕하세요?
 
