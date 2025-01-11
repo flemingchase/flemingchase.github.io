@@ -16,12 +16,12 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/blog/";
           },
-        },{id: "nav-projects",
-          title: "projects",
-          description: "A growing collection of your cool projects.",
+        },{id: "nav-writings",
+          title: "writings",
+          description: "A collection of expository papers and talks given",
           section: "Navigation",
           handler: () => {
-            window.location.href = "/projects/";
+            window.location.href = "/writings/";
           },
         },{id: "nav-cv",
           title: "cv",
@@ -32,7 +32,7 @@ ninja.data = [{
           },
         },{id: "nav-teaching",
           title: "teaching",
-          description: "Materials for courses you taught. Replace this text with your description.",
+          description: "Courses taught and their syllabi",
           section: "Navigation",
           handler: () => {
             window.location.href = "/teaching/";
@@ -57,6 +57,17 @@ ninja.data = [{
       handler: () => {
         
           window.location.href = "/blog/2025/conditional-expectation/";
+        
+      },
+    },{id: "post-random-variables",
+      
+        title: "Random Variables",
+      
+      description: "",
+      section: "Posts",
+      handler: () => {
+        
+          window.location.href = "/blog/2025/random-variables-as-staralgebra/";
         
       },
     },];
