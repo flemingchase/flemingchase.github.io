@@ -1,6 +1,6 @@
 ---
 layout: about
-title: about
+title: blank
 permalink: /
 subtitle: Hello! 안녕하세요?
 
@@ -34,10 +34,7 @@ I was trained by Dr. Nyikos in set-theoretic topology. My interests there were:
 Cp Space theory, topologies on trees, and classifying generators for Tychonoff
 spaces. 
 
-Please see some of my posts in the blog section for some of my writings on
-these topics.
-
-In 2023, I was awarded a David L. Boren Fellowship through the National
+In 2023, I was awarded a <a href="https://www.borenawards.org/">David L. Boren Fellowship</a> through the National
 Security Education Program. I spent the 2023-2024 academic year studying the
 Korean language at Sogang University's Korean Language Education Center in
 Seoul, South Korea. 
