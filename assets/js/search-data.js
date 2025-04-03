@@ -37,37 +37,15 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/teaching/";
           },
-        },{id: "post-properties-of-the-score-function",
+        },{id: "post-a-simple-computation",
       
-        title: "Properties of the score function",
+        title: "A simple computation",
       
-      description: "some more notes on a paper by D. Shlyakhtenko",
+      description: "the Fock state&#39;s action on Weyl Operators",
       section: "Posts",
       handler: () => {
         
-          window.location.href = "/blog/2025/score-function/";
-        
-      },
-    },{id: "post-conditional-expectation-with-respect-to-von-neumann-subalgebras",
-      
-        title: "Conditional expectation with respect to von-Neumann subalgebras",
-      
-      description: "some notes on a paper by D. Shlyakhtenko",
-      section: "Posts",
-      handler: () => {
-        
-          window.location.href = "/blog/2025/conditional-expectation/";
-        
-      },
-    },{id: "post-random-variables",
-      
-        title: "Random Variables",
-      
-      description: "",
-      section: "Posts",
-      handler: () => {
-        
-          window.location.href = "/blog/2025/random-variables-as-staralgebra/";
+          window.location.href = "/blog/2025/simplecomputation/";
         
       },
     },];
