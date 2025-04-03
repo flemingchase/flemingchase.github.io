@@ -7,8 +7,6 @@ tags: math operator-algebras statistics
 related_posts: false
 ---
 
-This post is inspired by this <a href="https://www.jstor.org/stable/25449122">paper</a> by D. Shlyakhtenko (<a
-href="https://arxiv.org/pdf/math/0510103"> arxiv link to similar result</a>).
 While reading this paper, I came across some notation in formula in the statement of lemma
 4 that I was unfamiliar with
 

@@ -7,10 +7,6 @@ tags: math statistics
 related_posts: false
 ---
 
-In the proof of theorem 5 in this <a href="https://www.jstor.org/stable/25449122">this</a> paper by Syhlakhtenko,
-my advisor and I came across something curious. The first three equalities are 
-
-
 $$
 \begin{aligned} 
 
