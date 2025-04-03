@@ -103,8 +103,8 @@ We focus on $$ \exp(\beta a(f))\Omega $$. From the above, it is clear that it
 is equal to 
 
 $$
-\sum_{n=0}^{\infty} \beta^n a(f)^n\Omega = \beta^0a(f)^0\Omega + \beta a(f)\Omega
-+ \ldots + \beta^n a(f)^n \Omega + \ldots
+\sum_{n=0}^{\infty} \frac{\beta^n a(f)^n\Omega}{n!} = \beta^0a(f)^0\Omega + \beta a(f)\Omega
++ \ldots + \frac{\beta^n a(f)^n \Omega}{n!} + \ldots
 $$
 
 Notice, that since $$a(f) \Omega = (0,0,\ldots)$$, all the terms after the
@@ -118,7 +118,7 @@ $$\operatorname{exp}\left(\beta a^*(f)\right)\Omega$$
 
 This operator will act by, for all $$n\geq 1$$ by 
 
-$$\psi_{n} = \beta^na^*(f)^n\Omega = (0,\ldots,\beta^n\sqrt{n}f^{\otimes n}, 0, \ldots)$$
+$$n! \cdot \psi_{n} = \beta^na^*(f)^n\Omega = (0,\ldots,\beta^n\sqrt{n}f^{\otimes n}, 0, \ldots)$$
 
 Hence, 
 
