@@ -50,7 +50,7 @@
     "url": "",
     "startDate": "2022-05-01",
     "endDate": "2023-05-01",
-    "summary": "I was responsible for hosting the math department's sanctioned weekly social. I was responsible for helping first year students integrate into our department by introducing them professors and senior graduate students."
+    "summary": "I was responsible for hosting the math department's sanctioned weekly social. I was responsible for helping first year students integrate into our department by introducing them to professors and senior graduate students."
   }],
   "education": [{
     "institution": "Johns Hopkins University",
@@ -58,8 +58,7 @@
     "area": "Mathematics",
     "studyType": "Bachelor of Arts",
     "startDate": "2014-08-01",
-    "endDate": "2019-08-01",
-    "score": "3.3"
+    "endDate": "2019-08-01"
     },
     {"institution": "University of South Carolina",
     "url": "https://sc.edu/",
@@ -67,9 +66,8 @@
     "studyType": "PhD",
     "startDate": "2019-08-01",
     "endDate": "",
-    "score": "3.5",
     "courses": [
-      "Qualifying Exams passed in Jaunary 2021. Comprehensive exams passed in September 2022. Topics for comprehensive exams: Functional Analysis, Set Theoretic Topology & General Topology II, and Category Theory."
+      "Qualifying Exams passed in Jaunary 2021. Comprehensive exams passed in September 2022. Topics for comprehensive exams: Functional Analysis, Set Theoretic Topology & General Topology II, and Category Theory with a focus on proof formalization in Lean."
     ]}
   ],
   "awards": [{
@@ -77,26 +75,33 @@
     "date": "2023-04-01",
     "awarder": "National Security Education Program",
     "summary": "The Boren fellowship awards funding to graduate students in order to study critical languages. I was chosen for the 2023-2024 school year. I lived in Seoul, South Korea from August until June. While there, I participated in roughly 20 hours of language study per week at Sogang University's Korean Language Education Center. I went from having zero language skill to an intermediate speaker in this time frame."
+  },
+  {"title": "Summer Institute in Biostatistics",
+  "date": "2015-05-25",
+  "awarder": "National Institute of Health",
+  "summary": "I was accepted for SIBS after my first year of undergrad. I spent two months at Boston University doing an intensive study in biostatistics. I was introduced to the SAS and R programming languages via studying the Framingham Heart Study data."
   }],
   "skills": [{
     "name": "Coding",
     "level": "Intermediate",
     "keywords": [
       "Python",
-      "SAS and R",
+      "SAS", 
+      "R",
       "C/C++",
+      "Lean",
       "Git"
     ]
   },
   {
-    "name": "Office Sofware",
+    "name": "Linux",
     "level": "Master",
     "keywords": [
-      "Microsoft Office Suite",
-      "Powerpoint, Excel, Word"
+      "Arch Linux",
+      "Linux From Scratch"
     ]
   },
-    {
+  {
     "name": "Typesetting",
     "level": "Master",
     "keywords": [
@@ -110,20 +115,5 @@
   { 
   "language": "Korean",
     "fluency": "Intermediate"
-  }],
-  "interests": [{
-    "name": "Mathematics",
-    "keywords": [
-      "Functional Analysis",
-      "Set Theory",
-      "Foundations of Quantum Mechanics"
-    ]
-  },{
-    "name": "Music Collecting",
-    "keywords": [
-      "Black Metal",
-      "Death Metal",
-      "Cassette & CDs"
-    ]
   }]
 }
