@@ -48,4 +48,15 @@ ninja.data = [{
           window.location.href = "/blog/2025/simplecomputation/";
         
       },
+    },{id: "post-properties-of-the-score-function",
+      
+        title: "Properties of the score function",
+      
+      description: "some more notes on a paper by D. Shlyakhtenko",
+      section: "Posts",
+      handler: () => {
+        
+          window.location.href = "/blog/2025/a-diagonalizaiton-argument-on-trees/";
+        
+      },
     },];
