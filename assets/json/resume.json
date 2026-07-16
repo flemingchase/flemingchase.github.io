@@ -88,11 +88,13 @@
     ]
   },
   {
-    "name": "Linux",
+    "name": "Operating Systems",
     "level": "Master",
     "keywords": [
-      "Arch Linux",
-      "Linux From Scratch"
+      "Arch based Linux",
+      "Debian based Linux",
+      "Linux From Scratch",
+      "Windows"
     ]
   },
   {

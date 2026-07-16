@@ -58,9 +58,9 @@
 
   /* Defaults use Material Design specification */
   --jp-content-font-color0: rgba(0, 0, 0, 1);
-  --jp-content-font-color1: rgba(0, 0, 0, 0.87);
-  --jp-content-font-color2: rgba(0, 0, 0, 0.54);
-  --jp-content-font-color3: rgba(0, 0, 0, 0.38);
+  --jp-content-font-color1: rgba(0, 0, 0, 1);
+  --jp-content-font-color2: rgba(0, 0, 0, 1);
+  --jp-content-font-color3: rgba(0, 0, 0, 1);
 
   --jp-content-link-color: var(--md-blue-700);
 
