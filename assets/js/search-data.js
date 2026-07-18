@@ -18,7 +18,7 @@ ninja.data = [{
           },
         },{id: "nav-writings",
           title: "writings",
-          description: "A collection of expository papers and talks given",
+          description: "A collection of publications, expository writings, and talks given",
           section: "Navigation",
           handler: () => {
             window.location.href = "/writings/";
@@ -37,7 +37,18 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/teaching/";
           },
-        },{id: "post-a-simple-computation",
+        },{id: "post-a-diagonlization-argument-on-trees",
+      
+        title: "A Diagonlization Argument on Trees",
+      
+      description: "Looking at complete countably infinite branching trees",
+      section: "Posts",
+      handler: () => {
+        
+          window.location.href = "/blog/2026/a-diagonalizaiton-argument-on-trees/";
+        
+      },
+    },{id: "post-a-simple-computation",
       
         title: "A simple computation",
       
