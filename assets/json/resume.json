@@ -84,7 +84,8 @@
       "R",
       "C/C++",
       "Lean",
-      "Git"
+      "Git",
+      "LaTeX"
     ]
   },
   {
@@ -98,10 +99,12 @@
     ]
   },
   {
-    "name": "Typesetting",
-    "level": "Master",
-    "keywords": [
-      "LaTex"
-    ]
+      "name": "Office Software",
+      "level": "Master",
+      "keywords": [
+          "Microsoft Office",
+          "Libre Office",
+          "Google Workspace"
+      ]
   }]
 }

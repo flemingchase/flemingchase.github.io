@@ -73,5 +73,19 @@
     "role": "Instructor",
     "year": "2025",
     "semester": "Spring",
-    "syllabus": "/syllabus/MATH174SP25.pdf"}
+    "syllabus": "/syllabus/MATH174SP25.pdf"},
+    {
+    "title": "Finite Mathematics",
+    "code": "Math 170",
+    "role": "Instructor",
+    "year": "2025",
+    "semester": "Fall",
+    "syllabus": "/syllabus/MATH170FA25.pdf"},
+    {
+    "title": "Discrete Math for Computer Science",
+    "code": "Math 174",
+    "role": "Instructor",
+    "year": "2026",
+    "semester": "Spring",
+    "syllabus": "/syllabus/MATH174SP26.pdf"}
 ]}

@@ -1,4 +1,12 @@
 {
+  "publication": [{
+      "preprint": true,
+      "title": "Discrete Generators on Pseudotrees",
+      "pdf": "/assets/pdf/Discrete_Generators_on_Pseudotrees.pdf",
+      "desc": "We characterize when tree-like pseudotrees admit a (0,1)-generator such that that every member of the generator is {0,1}-valued.",
+      "date": "6/19/2026"
+    }
+  ],
   "expository_paper": [{
     "title": "Diamond Equivalents",
     "pdf": "/assets/pdf/diamondequiv.pdf",
@@ -15,10 +23,6 @@
     "title": "Super (0,1)-generators on trees of arbitrary size",
     "pdf": "/assets/pdf/genontrees.pdf",
     "desc": "(0,1)-generators of Tychonoff spaces capture the topology of the space inside of Cp(X) space. Trees of arbitrary height with the restriction that every element has at most countably many successors is shown to have a super (0,1)-generator that is also discrete."
-  },{
-    "title": "Discrete Generators on Pseudotrees ",
-    "pdf": "/assets/pdf/pseudotrees.pdf",
-    "desc": "We charactrize pseudotrees in terms of discrete (0,1)-generators."
   }],
   "talks": [{
     "title": "An Introduction to Forcing",

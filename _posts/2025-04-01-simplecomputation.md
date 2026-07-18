@@ -135,5 +135,3 @@ $$ \langle \Omega | W(f) | \Omega \rangle
 = \operatorname{exp}\left(-\frac{||f||^2}{4}\right)$$ 
 
 as desired.
-
-
