@@ -1,8 +1,7 @@
 {
   "publication": [{
-      "preprint": true,
+      "preprint": false,
       "title": "Discrete Generators on Pseudotrees",
-      "pdf": "/assets/pdf/Discrete_Generators_on_Pseudotrees.pdf",
       "desc": "We characterize when tree-like pseudotrees admit a (0,1)-generator such that that every member of the generator is {0,1}-valued.",
       "date": "6/19/2026"
     }
