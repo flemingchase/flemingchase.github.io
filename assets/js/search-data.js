@@ -37,7 +37,18 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/teaching/";
           },
-        },{id: "post-a-diagonlization-argument-on-trees",
+        },{id: "post-inductive-topologies",
+      
+        title: "Inductive Topologies",
+      
+      description: "",
+      section: "Posts",
+      handler: () => {
+        
+          window.location.href = "/blog/2026/inductive-topologies/";
+        
+      },
+    },{id: "post-a-diagonlization-argument-on-trees",
       
         title: "A Diagonlization Argument on Trees",
       
