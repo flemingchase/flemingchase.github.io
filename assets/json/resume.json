@@ -15,6 +15,11 @@
     }
   },
   "work": [{
+    "name" : "Palmetto GBA",
+    "position": "Analyst Intern",
+    "startDate": "2026-09",
+    "summary": "I accepted an internship to produce reports regarding Medicare and Medicaid data."
+  },{
     "name": "University of South Carolina",
     "position": "Graduate Instructor",
     "url": "https://sc.edu/study/colleges_schools/artsandsciences/mathematics/our_people/directory/fleming_chase.php",

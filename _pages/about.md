@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: Hello! 안녕하세요?
+subtitle: Hello!
 
 profile:
   align: right
@@ -25,10 +25,8 @@ becoming his student, I was advised by the late <a
 href='https://people.math.sc.edu/nyikos/'>Dr. Peter Nyikos</a>. 
 
 My current academic interests include: quantum information and statistics,
-mathematical foundations of physics, classical statistics, and functional
-analysis. In particular, I am interested in the inverse space
-problem of Weyl-Wigner Quantization and generalizing Shannon's entropy theorem
-to the quantum setting.
+mathematical foundations of physics, and functional
+analysis. In particular, I am currently interested in Quantum Markov Semigroups.
 
 I was trained by Dr. Nyikos in set-theoretic topology. My interests there were:
 Cp Space theory, topologies on trees, and classifying generators for Tychonoff
@@ -38,6 +36,8 @@ In 2023, I was awarded a <a href="https://www.borenawards.org/">David L. Boren F
 Security Education Program. I spent the 2023-2024 academic year studying the
 Korean language at Sogang University's Korean Language Education Center in
 Seoul, South Korea. 
+
+In 2026, I accepted an internship at <a href="https://palmettogba.com/">Palmetto GBA</a> as an analyst.
 
 Please explore some links on this site to view my interests, hobbies, and
 professional experience.
