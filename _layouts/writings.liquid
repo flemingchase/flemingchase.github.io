@@ -28,8 +28,10 @@ layout: default
                   {% for element in paper %}
                     {% case element[0] %}
                       {% when 'preprint' %}
-                        {% assign paper_listing = paper_listing | append:
-                            "(Preprint) " %}
+                        {% if element[0] %}
+                          {% assign paper_listing = paper_listing | append:
+                              "(Preprint) " %}
+                        {% endif %}
                       {% when 'title' %}
                           {% assign paper_listing = paper_listing | append:
                           "<b>" | append: element[1] | append: "</b>" %}
