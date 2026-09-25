@@ -16,7 +16,7 @@ profile:
 
 social: true # includes social icons at the bottom of the page
 ---
-I am a South Carolina native. I graduated in 2019 with a Bachelor of Arts in Mathematics from <a href='https://www.jhu.edu/'>Johns Hopkins University</a> in 2019. After, I started my PhD at <a href='https://sc.edu'>University ofSouth Carolina</a>. My current advisor is <a href='https://people.math.sc.edu/androula/'>Dr. George Androulakis</a>. Before becoming his student, I was advised by the late <a href='https://people.math.sc.edu/nyikos/'>Dr. Peter Nyikos</a>. 
+I am a South Carolina native. I graduated in 2019 with a Bachelor of Arts in Mathematics from <a href='https://jhu.edu/'>Johns Hopkins University</a> in 2019. After, I started my PhD at <a href='https://sc.edu'>University ofSouth Carolina</a>. My current advisor is <a href='https://people.math.sc.edu/androula/'>Dr. George Androulakis</a>. Before becoming his student, I was advised by the late <a href='https://people.math.sc.edu/nyikos/'>Dr. Peter Nyikos</a>. 
 
 My current academic interests include: quantum information, quantum Markov semigroups, mathematical foundations of physics, and functional analysis. 
 
