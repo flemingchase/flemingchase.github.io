@@ -30,6 +30,12 @@ layout: default
                       {% when 'preprint' %}
                         {% assign paper_listing = paper_listing | append:
                             "(Preprint) " %}
+                      {% when 'accepted' %}
+                        {% assign paper_listing = paper_listing | append:
+                            "Accepted - | append: element[1] %}
+                      {% when 'journal' %}
+                        {% assign paper_listing = paper_listing | append:
+                          "<b>" | append: "Journal: " | append: element[1] | append: "</b>" %}
                       {% when 'title' %}
                           {% assign paper_listing = paper_listing | append:
                           "<b>" | append: element[1] | append: "</b>" %}
