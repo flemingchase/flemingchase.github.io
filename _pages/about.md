@@ -22,7 +22,7 @@ My current academic interests include: quantum information, quantum Markov semig
 
 I was trained by Dr. Nyikos in set-theoretic topology. My interests there were:Cp Space theory, topologies on trees, and classifying generators for Tychonoff spaces.
 
-In 2023, I was awarded a <a href="https://www.borenawards.org/">David L. Boren Fellowship</a> through the <a href='https://www.dlnseo.mil/Programs/National-Security-Education-Program/'>National Security Education Program</a>. I spent the 2023-2024 academic year studying the Korean language at <a href='https://klec.sogang.ac.kr'>Sogang University's Korean Language Education Center</a> in Seoul, South Korea. 
+In 2023, I was awarded a <a href="https://www.borenawards.org/">David L. Boren Fellowship</a> through the <a href='https://www.dlnseo.mil/Programs/National-Security-Education-Program/'>National Security Education Program</a>. I spent the 2023-2024 academic year studying the Korean language at <a href='https://klec.sogang.ac.kr/?lang=eng'>Sogang University's Korean Language Education Center</a> in Seoul, South Korea. 
 
 In 2026, I accepted an internship at <a href="https://palmettogba.com/">Palmetto GBA</a> as an analyst.
 
