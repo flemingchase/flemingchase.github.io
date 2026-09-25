@@ -30,21 +30,25 @@
     "title": "An Introduction to Forcing",
     "slides": "/assets/pdf/gradforcing.pdf",
     "location": "UofSC Math Grad Colloquium",
-    "date": "3/16/2022"
+    "date": "3/16/2022",
+    "desc": "An introduction to forcing through Nik Weaver's book 'Forcing for Mathematicians' is given."
     },{
     "title": "Countably Generated Complete Boolean Algebras of Arbitrary Size",
     "slides": "/assets/pdf/gradboolean.pdf",
     "location": "UofSC Math Grad Colloquium",
-    "date": "9/21/2021"
+    "date": "9/21/2021",
+    "desc": "I present the proof of Solovay's result that there exist countably generated complete Boolean algebras of arbitrary size."
     },{
       "title": "Monotoncity of Quantum Entropy",
       "slides": "/assets/pdf/Talk_Monotonicity_of_Quantum_Entropy.pdf",
       "location": "UofSC Math Grad Colloquium",
-      "date": "4/30/2025"
+      "date": "4/30/2025",
+      "desc": "The importance of monotoncity of quantum entropy is discussed, and a proof outline based on the publication of Beigi and Mehrabi is presented."
     },{
     "title": "Discrete Generators on Pseudotrees",
     "slides": "/assets/pdf/Talk_Discrete_Generators_on_Pseudotrees.pdf",
     "location": "UofSC Math Grad Colloquium",
-    "date": "9/16/2026"
+    "date": "9/16/2026",
+    "date": "I present my recently accepted paper on discrete generators on pseudotrees, and discuss the proof of the main theorem."
     }]
 }

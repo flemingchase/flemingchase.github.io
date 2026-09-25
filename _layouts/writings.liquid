@@ -101,6 +101,9 @@ layout: default
                   {% when 'date' %}
                     {% assign talk_listing = talk_listing | append:
                     " - " | append: element[1] %}
+                  {% when 'desc' %}
+                      {% assign paper_listing = paper_listing | append: '<br>'
+                      | append: "Description: " | append: element[1] %}
                 {% endcase %}
               {% endfor %}
               <li> {{ talk_listing }}</li>
