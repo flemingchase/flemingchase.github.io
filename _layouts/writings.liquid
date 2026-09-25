@@ -41,15 +41,9 @@ layout: default
                       {% when 'desc' %}
                         {% assign paper_listing = paper_listing | append: '<br>'
                         | append: "Description: " | append: element[1] %}
-                      {% when 'journal' %}
-                        {% assign paper_listing = paper_listing | append:
-                          "<b>" | append: "Journal: " | append: "</b>" | append: element[1] %}
                       {% when 'date' %}
                           {% assign paper_listing = paper_listing | append:
                           '<br>' | append: "Submitted: " | append: element[1] %}
-                      {% when 'accepted' %}
-                        {% assign paper_listing = paper_listing | append:
-                          '<br>' | append: "Accepted: " | append: element[1] %}
                     {% endcase %}
                   {% endfor %}
                   <li>{{ paper_listing }}</li>
