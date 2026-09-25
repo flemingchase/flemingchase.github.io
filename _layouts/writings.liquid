@@ -43,6 +43,9 @@ layout: default
                       {% when 'desc' %}
                         {% assign paper_listing = paper_listing | append: '<br>'
                         | append: "Description: " | append: element[1] %}
+                      {% when 'journal' %}
+                        {% assign paper_listing = paper_listing | append: '<br>'
+                        | append: "Journal: " | append: element[1] %}
                       {% when 'submitted' %}
                           {% assign paper_listing = paper_listing | append:
                           '<br>' | append: "Submitted: " | append: element[1] %}
