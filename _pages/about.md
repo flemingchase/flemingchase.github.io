@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: Hello!
+subtitle:
 
 profile:
   align: right
@@ -16,28 +16,14 @@ profile:
 
 social: true # includes social icons at the bottom of the page
 ---
-I am a South Carolina native. After living in Baltimore for my undergraduate
-degree, I moved back to South Carolina to get my PhD from the <a
-href='https://sc.edu'>University of
-South Carolina</a>. My current advisor is <a
-href='https://people.math.sc.edu/androula/'>Dr. George Androulakis</a>. Before
-becoming his student, I was advised by the late <a
-href='https://people.math.sc.edu/nyikos/'>Dr. Peter Nyikos</a>. 
+I am a South Carolina native. I graduated in 2019 with a Bachelor of Arts in Mathematics from <a href='https://www.jhu.edu/'>Johns Hopkins University</a> in 2019. After, I started my PhD at <a href='https://sc.edu'>University ofSouth Carolina</a>. My current advisor is <a href='https://people.math.sc.edu/androula/'>Dr. George Androulakis</a>. Before becoming his student, I was advised by the late <a href='https://people.math.sc.edu/nyikos/'>Dr. Peter Nyikos</a>. 
 
-My current academic interests include: quantum information and statistics,
-mathematical foundations of physics, and functional
-analysis. In particular, I am currently interested in Quantum Markov Semigroups.
+My current academic interests include: quantum information, quantum Markov semigroups, mathematical foundations of physics, and functional analysis. 
 
-I was trained by Dr. Nyikos in set-theoretic topology. My interests there were:
-Cp Space theory, topologies on trees, and classifying generators for Tychonoff
-spaces. 
+I was trained by Dr. Nyikos in set-theoretic topology. My interests there were:Cp Space theory, topologies on trees, and classifying generators for Tychonoff spaces.
 
-In 2023, I was awarded a <a href="https://www.borenawards.org/">David L. Boren Fellowship</a> through the National
-Security Education Program. I spent the 2023-2024 academic year studying the
-Korean language at Sogang University's Korean Language Education Center in
-Seoul, South Korea. 
+In 2023, I was awarded a <a href="https://www.borenawards.org/">David L. Boren Fellowship</a> through the <a href='https://www.dlnseo.mil/Programs/National-Security-Education-Program/'>National Security Education Program</a>. I spent the 2023-2024 academic year studying the Korean language at <a href='https://klec.sogang.ac.kr'>Sogang University's Korean Language Education Center</a> in Seoul, South Korea. 
 
 In 2026, I accepted an internship at <a href="https://palmettogba.com/">Palmetto GBA</a> as an analyst.
 
-Please explore some links on this site to view my interests, hobbies, and
-professional experience.
+Please explore some links on this site to view my interests, hobbies, and professional experience.
