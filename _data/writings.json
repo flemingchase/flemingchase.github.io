@@ -28,23 +28,23 @@
   }],
   "talks": [{
     "title": "An Introduction to Forcing",
+    "slides": "/assets/pdf/gradforcing.pdf",
     "location": "UofSC Math Grad Colloquium",
-    "date": "3/16/2022",
-    "slides": "/assets/pdf/gradforcing.pdf"
+    "date": "3/16/2022"
     },{
-    "title": "Countably Generated Complete Boolean Algebras of Arbitrary Size", 
+    "title": "Countably Generated Complete Boolean Algebras of Arbitrary Size",
+    "slides": "/assets/pdf/gradboolean.pdf",
     "location": "UofSC Math Grad Colloquium",
-    "date": "9/21/2021",
-    "slides": "/assets/pdf/gradboolean.pdf"
+    "date": "9/21/2021"
     },{
       "title": "Monotoncity of Quantum Entropy",
+      "slides": "/assets/pdf/Talk_Monotonicity_of_Quantum_Entropy.pdf",
       "location": "UofSC Math Grad Colloquium",
-      "date": "4/30/2025",
-      "slides": "/assets/pdf/Talk_Monotonicity_of_Quantum_Entropy.pdf"
+      "date": "4/30/2025"
     },{
     "title": "Discrete Generators on Pseudotrees",
+    "slides": "/assets/pdf/Talk_Discrete_Generators_on_Pseudotrees.pdf",
     "location": "UofSC Math Grad Colloquium",
-    "date": "9/16/2026",
-    "slides": "/assets/pdf/Talk_Discrete_Generators_on_Pseudotrees.pdf"
+    "date": "9/16/2026"
     }]
 }
